@@ -6674,3 +6674,4 @@ java.lang.ClassNotFoundException: com.endertech.minecraft.forge.data.UserAgent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:07:06] [Render thread/ERROR]: Signature is missing from Property textures
