@@ -184,10 +184,9 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"quark:dirty_glass" = "minecraft:glass"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
-			"minecraft:wither_rose" = "minecraft:poppy"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"quark:dirty_glass" = "minecraft:glass"
 
 	[functional.cannon]
 		enabled = true
@@ -301,11 +300,11 @@
 
 	[building.sugar_cube]
 		enabled = true
+		#Makes sugar cubes dissolve in rain
+		dissolve_in_rain = true
 		#Duration in seconts of speed effect garanted to horses that eat a sugar cube
 		#Range: 0 ~ 1000
 		horse_speed_duration = 10
-		#Makes sugar cubes dissolve in rain
-		dissolve_in_rain = true
 
 	[building.planter]
 		enabled = true
@@ -356,6 +355,15 @@
 		enabled = true
 		sepia_globe = true
 
+	[building.sign_post]
+		enabled = true
+
+		[building.sign_post.way_sign]
+			#Entirely disables them from spawning
+			enabled = true
+			#With this option road signs will display the distance to the structure that they are pointing to
+			show_distance_text = true
+
 	[building.daub]
 		enabled = true
 		wattle_and_daub = true
@@ -387,15 +395,6 @@
 		door = true
 		trapdoor = true
 
-	[building.sign_post]
-		enabled = true
-
-		[building.sign_post.way_sign]
-			#Entirely disables them from spawning
-			enabled = true
-			#With this option road signs will display the distance to the structure that they are pointing to
-			show_distance_text = true
-
 [tools]
 	candy = true
 	stasis = true
@@ -411,13 +410,13 @@
 		slots = 6
 		#Increase this number to alter the probability for a Skeleton with quiver to spawn.
 		#Range: 0.0 ~ 1.0
-		quiver_skeleton_spawn_chance = 0.03
+		quiver_skeleton_spawn_chance = 0.025
+		#If the chance for a skeleton to spawn with a quiver will be affected by local difficulty. If true, you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		quiver_skeleton_spawn_affected_by_local_difficulty = true
 		#Allows quiver to only be used when in offhand or in curio slot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
-		#If the chance for a skeleton to spawn with a quiver will be affected by local difficulty. If true, you wont ever see them on easy and very rarely on normal. Similar logic to equipment
-		quiver_skeleton_spawn_affected_by_local_difficulty = true
 
 	[tools.lunch_basket]
 		enabled = true
@@ -535,20 +534,16 @@
 	jar_tab = false
 	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
 	debug_save_dynamic_pack = false
+	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
+	server_protection = false
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
 	sanity_checks_messages = true
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	#Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
-	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
-	server_protection = false
 
 #Vanilla tweaks
 [tweaks]
-
-	[tweaks.sus_recipes]
-		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = false
 
 	[tweaks.dragon_banner_pattern]
 		#Adds dragon banner pattern made from dragon head
@@ -628,18 +623,18 @@
 		tinted_blocks_on_maps = true
 
 	[tweaks.placeable_books]
-		#Allow books and enchanted books to be placed on the ground
-		enabled = true
-		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
 		#Allows written books to be placed down. Requires shift clicking
 		written_books = true
+		#Allow books and enchanted books to be placed on the ground
+		enabled = true
 		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
 		#Range: 0.0 ~ 5.0
 		book_power = 1.0
 		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
 		#Range: 0.0 ~ 5.0
 		enchanted_book_power = 1.334
+		#Allow all books to be placed both vertically and horizontally
+		mixed_books = false
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -664,6 +659,10 @@
 
 	[tweaks.item_lore]
 		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
+		enabled = true
+
+	[tweaks.sus_recipes]
+		#Adds recipes to craft suspicious gravel and suspicious sand
 		enabled = true
 
 	[tweaks.slimed_effect]

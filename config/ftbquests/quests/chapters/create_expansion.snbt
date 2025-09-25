@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_expansion"
+	group: "47C85ED2060B6A0B"
+	id: "0D7E487681996827"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create Expansion"
+}

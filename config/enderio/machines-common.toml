@@ -97,6 +97,15 @@
 		#Range: > 1
 		vibrant = 64
 
+	[energy.capacitor_bank_capacity]
+		#Capacity for capacitor banks
+		#Range: > 1
+		basic = 500000
+		#Range: > 1
+		advanced = 2000000
+		#Range: > 1
+		vibrant = 4000000
+
 	[energy.wiredCharger]
 		#The base energy capacity in uI.
 		#Range: > 1
@@ -104,6 +113,16 @@
 		#The base energy consumption in uI/t.
 		#Range: > 1
 		usage = 30
+
+	[energy.soul_engine]
+		#Range: > 1
+		capacity = 100000
+		#The base burn-rate the soul engine.
+		#Range: > 1
+		burnSpeed = 1
+		#Percentage increase in uI produced.
+		#Range: 0.001 ~ 1.7976931348623157E308
+		generation = 1.0
 
 	[energy.drain]
 		#The base energy capacity in uI.
@@ -120,25 +139,6 @@
 		#The base energy consumption in uI/t.
 		#Range: > 1
 		usage = 10
-
-	[energy.capacitor_bank_capacity]
-		#Capacity for capacitor banks
-		#Range: > 1
-		basic = 500000
-		#Range: > 1
-		advanced = 2000000
-		#Range: > 1
-		vibrant = 4000000
-
-	[energy.soul_engine]
-		#Range: > 1
-		capacity = 100000
-		#The base burn-rate the soul engine.
-		#Range: > 1
-		burnSpeed = 1
-		#Percentage increase in uI produced.
-		#Range: 0.001 ~ 1.7976931348623157E308
-		generation = 1.0
 
 [enchanter]
 	#The lapis cost is enchant level multiplied by this value.

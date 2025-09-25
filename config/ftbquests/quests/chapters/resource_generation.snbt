@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_generation"
+	group: "6F0D544CD6B2931F"
+	id: "09EA17B9BF51E3FA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Resource Generation"
+}

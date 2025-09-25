@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah__flux_networks"
+	group: "6B4AD7E41111227C"
+	id: "1AD3A53A8AFE981E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Powah / Flux Networks"
+}

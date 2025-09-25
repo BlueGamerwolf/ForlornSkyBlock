@@ -3,10 +3,6 @@ allthemodium_boots, #ffb82f
 allthemodium_hat, #ffeb43
 allthemodium_leggings, #ffe04e
 allthemodium_robes, #ffdc47
-thread_flight, #bbabb5
-thread_spectral_sight, #b19eac
-thread_truesight, #c8b9be
-thread_vitality, #dad0cd
 unobtainium_boots, #8d40f5
 unobtainium_hat, #c876f8
 unobtainium_leggings, #bb6fff

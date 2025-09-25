@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblock_machines"
+	group: "63AD7DD79E7D6B60"
+	id: "299D79DC5224A3C9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Multi-block machines"
+}

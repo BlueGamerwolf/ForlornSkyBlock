@@ -1,3 +1,0 @@
-// Compost colors for anime_weapons. You may add your own colors, change existing ones, or remove colors that aren't needed.
-handle, #5a5a5a
-zoros_sheaths_chestplate, #ff7d98

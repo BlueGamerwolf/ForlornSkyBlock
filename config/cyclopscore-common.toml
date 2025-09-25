@@ -1,10 +1,4 @@
 
-[general]
-
-	[general.general]
-		#If a button should be added to the main menu to open a dev world (shift-click creates a new world).
-		devWorldButton = true
-
 [core]
 
 	[core.general]
@@ -13,11 +7,17 @@
 		#Set 'true' to enable development debug mode. This will result in a lower performance!
 		debug = false
 		#The anonymous id used by the analytics service.
-		anonymousAnalyticsID = "b7501da8-f35c-42bc-838a-686847e44512"
+		anonymousAnalyticsID = "9b2d10a3-bbf5-43c5-896f-17bbdd94b38d"
 		#If the recipe loader should crash when finding invalid recipes.
 		crashOnInvalidRecipe = false
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
 		analytics = true
 		#If the version checker should be enabled.
 		versionChecker = true
+
+[general]
+
+	[general.general]
+		#If a button should be added to the main menu to open a dev world (shift-click creates a new world).
+		devWorldButton = false
 

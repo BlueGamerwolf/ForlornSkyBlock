@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_power"
+	group: "6F0D544CD6B2931F"
+	id: "23450294B9D39104"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Basic Power"
+}

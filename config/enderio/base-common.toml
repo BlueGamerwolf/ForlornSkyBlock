@@ -11,21 +11,21 @@
 
 [enchantments]
 
+	[enchantments.autoSmelt]
+		maxCost = 60
+		minCost = 15
+
 	[enchantments.repellent]
-		chanceBase = 0.35
-		chancePerLevel = 0.1
-		rangeBase = 8.0
-		rangePerLevel = 8.0
-		nonPlayerChance = 0.75
 		maxLevel = 4
 		maxCostBase = 10
 		maxCostPerLevel = 10
 		minCostBase = 10
 		minCostPerLevel = 5
-
-	[enchantments.autoSmelt]
-		maxCost = 60
-		minCost = 15
+		chanceBase = 0.35
+		chancePerLevel = 0.1
+		rangeBase = 8.0
+		rangePerLevel = 8.0
+		nonPlayerChance = 0.75
 
 	[enchantments.shimmer]
 		maxCost = 100

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "midtier_rockets"
+	group: "63AD7DD79E7D6B60"
+	id: "1458580D32D4E80F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mid-tier rockets"
+}

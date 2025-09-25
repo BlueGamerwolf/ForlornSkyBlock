@@ -47,7 +47,7 @@ iron_to_gold_tier_upgrade, #ffe184
 iron_to_netherite_tier_upgrade, #8c7054
 jukebox_upgrade, #a27f4a
 magnet_upgrade, #a5824b
-packing_tape, #ffe7a1
+packing_tape, #ffe396
 paintbrush, #cdbfa8
 pickup_upgrade, #a5824b
 pump_upgrade, #a27f4a
@@ -65,6 +65,7 @@ stack_upgrade_tier_4, #a49864
 stack_upgrade_tier_5, #a17d4d
 stonecutter_upgrade, #a7834d
 storage_tool, #5a4823
+super_packing_tape, #ffe396
 survival_infinity_upgrade, #b48c52
 upgrade_base, #e8c898
 void_upgrade, #ac8650

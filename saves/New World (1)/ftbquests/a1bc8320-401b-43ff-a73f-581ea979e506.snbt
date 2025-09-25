@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "a1bc8320401b43ffa73f581ea979e506"
+	name: "Blue_Gamerwolf#a1bc8320"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,8 +1,3 @@
 {
-  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
-  "c:gems/apatite": "null",
-  "c:dusts/saltpeter": "null",
-  "c:dusts/niter": "null",
-  "c:ingots/graphite": "bigreactors:graphite_ingot",
-  "c:rubbers": "null"
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config"
 }

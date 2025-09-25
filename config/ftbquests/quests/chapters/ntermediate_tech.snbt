@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ntermediate_tech"
+	group: "47C85ED2060B6A0B"
+	id: "6A54FAC7092E78FB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "ntermediate Tech"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "full_gt_processing"
+	group: "704CCAB4F94DCCE5"
+	id: "11EBBB4155589678"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Full GT Processing"
+}

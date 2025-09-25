@@ -1,7 +1,6 @@
 {
+  "preventSearchIgnoredItems": false,
   "ingredientDedupe": false,
-  "debugItemStackModifications": false,
-  "version": 1,
-  "debugNativeImage": false,
-  "disableSearchTree": false
+  "resourceLocationDedupe": false,
+  "debugItemStackModifications": false
 }

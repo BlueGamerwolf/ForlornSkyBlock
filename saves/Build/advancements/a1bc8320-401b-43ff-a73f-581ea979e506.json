@@ -2022,6 +2022,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:stony_shore": "2025-09-25 05:45:15 -0400",
       "minecraft:snowy_taiga": "2025-09-25 00:24:34 -0400"
     },
     "done": false
@@ -2101,6 +2102,210 @@
   "excompressum:recipes/building_blocks/compressed_dust": {
     "criteria": {
       "has_dust": "2025-09-25 01:12:54 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/horizontal_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_cyan2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass1": {
+    "criteria": {
+      "recipe_condition": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/vertical_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pane3": {
+    "criteria": {
+      "recipe_condition": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_lime2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/pancake_fd": {
+    "criteria": {
+      "forge:eggs": "2025-09-25 05:45:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_blue2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_green2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_orange2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_light_gray2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_brown2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_gray2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-09-25 05:45:29 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_yellow2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pink2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-09-25 05:50:37 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_magenta2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_light_blue2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/brewing/common/glass/vanilla/glass_bottle": {
+    "criteria": {
+      "has_glass": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_purple2": {
+    "criteria": {
+      "recipe_condition1": "2025-09-25 05:46:55 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tiled_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2025-09-25 05:46:55 -0400"
     },
     "done": true
   },

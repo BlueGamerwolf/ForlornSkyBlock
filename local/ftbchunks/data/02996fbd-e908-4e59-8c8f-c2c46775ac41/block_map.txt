@@ -1,0 +1,8 @@
+#52B53D minecraft:air
+#38394E minecraft:amethyst_block
+#B08B3B minecraft:amethyst_cluster
+#9AD2D0 minecraft:budding_amethyst
+#00BE18 minecraft:calcite
+#3F84B7 minecraft:grass_block
+#F846EA minecraft:small_amethyst_bud
+#8638B9 minecraft:smooth_basalt

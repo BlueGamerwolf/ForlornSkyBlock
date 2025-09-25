@@ -5,7 +5,7 @@
   "color": "da9839",
   "armorPoints": 3,
   "enchantability": 9,
-  "craftingMaterial": "tag:c:ingots/bronze",
+  "craftingMaterial": "tag:forge:ingots/bronze",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

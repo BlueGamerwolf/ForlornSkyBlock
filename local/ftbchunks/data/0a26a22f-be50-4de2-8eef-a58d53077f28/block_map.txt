@@ -1,0 +1,10 @@
+#52B53D minecraft:air
+#00BE18 minecraft:calcite
+#1056C9 chipped:calcite_bricks
+#7B6043 create:cut_calcite_brick_stairs
+#80497A minecraft:dirt
+#2F436F minecraft:glass
+#3F84B7 minecraft:grass_block
+#73753E minecraft:oak_fence
+#9C3ECB minecraft:rose_bush
+#8638B9 minecraft:smooth_basalt

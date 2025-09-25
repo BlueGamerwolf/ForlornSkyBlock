@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "6F0D544CD6B2931F", title: "Skyblock Basics" }
+		{ id: "47C85ED2060B6A0B", title: "Create Progression" }
+		{ id: "6B4AD7E41111227C", title: "Easy Path" }
+		{ id: "63AD7DD79E7D6B60", title: "Hard Path" }
+		{ id: "704CCAB4F94DCCE5", title: "Extreme Path" }
+		{ id: "27DDC2F3D4BF6307", title: "Endgame" }
+	]
+}

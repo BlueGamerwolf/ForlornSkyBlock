@@ -1,6 +1,5 @@
 // Compost colors for chipped. You may add your own colors, change existing ones, or remove colors that aren't needed.
 acacia_torch, #ffa255
-alchemy_book, #938051
 andesite_pointed_dripstone, #ffffff
 arched_black_stained_glass_pane_pillar, #575454
 arched_blue_stained_glass_pane_pillar, #5b78a1
@@ -85,7 +84,6 @@ calcite_pointed_dripstone, #ffffff
 chained_iron_bars, #fcfefc
 checkered_iron_lantern, #b9b4ae
 checkered_iron_soul_lantern, #98bcd0
-chisel, #908675
 circle_oak_glass_pane, #ead3a0
 circular_black_stained_glass_pane, #575454
 circular_blue_stained_glass_pane, #5b78a1
@@ -301,8 +299,6 @@ mini_crimson_fungus, #ffffff
 mini_red_mushroom, #ffc9aa
 mini_warped_fungus, #7f9172
 mossy_ladder, #f7f0be
-multimeter, #83615e
-needles, #a47839
 nether_sprouts_weeds, #51fcd9
 nether_vine, #ffc5c2
 netherrack_pointed_dripstone, #f4e1e3
@@ -409,7 +405,6 @@ red_paper_lantern, #ffffff
 rope_planked_ladder, #ffffdc
 roped_ladder, #fffadc
 rough_lily_pad, #d7f0aa
-saw, #b6aa93
 scattered_cobweb, #ffffff
 screen_acacia_door, #ea8957
 screen_bamboo_door, #ffff87
@@ -595,7 +590,6 @@ warped_fungus_trio, #b2c9c5
 warped_torch, #6b9a9a
 warped_vine, #dde8f5
 warty_nether_sprouts, #19d2b4
-watering_can, #ee784e
 white_paper_lantern, #ffffff
 wicked_brown_mushroom, #fff4e3
 wicked_crimson_fungus, #e77875

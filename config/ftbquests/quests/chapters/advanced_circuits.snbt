@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_circuits"
+	group: "704CCAB4F94DCCE5"
+	id: "064E3999126CECCE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Advanced circuits"
+}

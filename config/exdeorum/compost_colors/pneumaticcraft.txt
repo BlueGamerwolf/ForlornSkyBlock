@@ -1,6 +1,5 @@
 // Compost colors for pneumaticcraft. You may add your own colors, change existing ones, or remove colors that aren't needed.
 air_canister, #ffffff
-air_canister_array, #97b1ac
 air_conditioning_upgrade, #7fabfe
 amadron_tablet, #bef0cf
 armor_upgrade, #7fabfe
@@ -64,7 +63,6 @@ memory_stick, #d9d4d0
 micromissiles, #ffffff
 minigun_upgrade, #7fabfe
 module_expansion_card, #dae8a8
-muffler_upgrade, #7fabfe
 network_api, #f7f8fb
 network_data_storage, #fffffb
 network_io_port, #f8fcf8
@@ -86,7 +84,6 @@ radiation_shielding_upgrade, #7fabfe
 range_upgrade, #7fabfe
 raw_salmon_tempura, #ffffff
 reinforced_air_canister, #ffffff
-reinforced_air_canister_array, #af8683
 reinforced_chest_kit, #bbb1a8
 remote, #a4a2a1
 salmon_tempura, #ffcd91

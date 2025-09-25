@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_create"
+	group: "63AD7DD79E7D6B60"
+	id: "25F2B7E9D8B87361"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Integrated Create"
+}

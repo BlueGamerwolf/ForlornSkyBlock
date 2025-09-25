@@ -5,6 +5,8 @@
 	#Defines which widgets are shown in the Programmer GUI: easy, medium, or advanced
 	#Allowed Values: EASY, MEDIUM, ADVANCED
 	programmer_difficulty = "EASY"
+	#Show tank fluids with the The One Probe when sneaking? Note that TOP has its own support for showing tanks, which by default requires a Probe to be held, or a Probe-enabled helmet to be worn.
+	top_shows_fluids = false
 	#Tint Logistics configuration GUI backgrounds according to the colour of the logistics frame you are configuring.
 	logistics_gui_tint = true
 	#Should GUI side tabs be shown with a beveled edge? Setting to false uses a plain black edge, as in earlier versions of the mod.
@@ -23,8 +25,6 @@
 	pressure_chamber_particles = true
 	#Should the Jackhammer continually show a HUD indicating break modes other than basic single-block? If false, the mode HUD will show only when switching modes
 	jackhammer_hud = true
-	#Show tank fluids with the The One Probe when sneaking? Note that TOP has its own support for showing tanks, which by default requires a Probe to be held, or a Probe-enabled helmet to be worn.
-	top_shows_fluids = false
 
 [armor]
 	#Intensity of the FOV modification when using Pneumatic Leggings speed boost: 0.0 for no FOV modification, higher values zoom out more.  Note: non-zero values may cause FOV clashes with other mods.

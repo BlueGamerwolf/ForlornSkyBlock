@@ -13,7 +13,7 @@ compressed_iron_hammer, #c9c5bf
 compressed_netherite_hammer, #6f555f
 compressed_stone_hammer, #8c8982
 compressed_wooden_hammer, #7a5b22
-cooked_silkworm, #ffcfac
+cooked_silk_worm, #ffcfac
 copper_ore_chunk, #8d8078
 crimson_nylium_spores, #e32525
 crook, #6e521f
@@ -54,7 +54,7 @@ porcelain_witch_water_bucket, #7d84ac
 random_armor_trim, #4d4750
 random_pottery_sherd, #a05a48
 sculk_core, #f3740
-silkworm, #ffff9b
+silk_worm, #ffff9b
 silver_ore_chunk, #908d8a
 stone_hammer, #837864
 stone_pebble, #a5a5a5

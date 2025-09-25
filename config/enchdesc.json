@@ -4,5 +4,7 @@
   "onlyDisplayInEnchantingTable": false,
   "requireKeybindPress": false,
   "indentSize": 0,
-  "style": {}
+  "style": {
+    "color": "dark_gray"
+  }
 }
