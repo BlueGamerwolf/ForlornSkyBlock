@@ -1,0 +1,21 @@
+// Compost colors for hwg. You may add your own colors, change existing ones, or remove colors that aren't needed.
+black_flare, #cc574e
+blue_flare, #cc574e
+brown_flare, #cc574e
+bullets, #d7b882
+cyan_flare, #cc574e
+gray_flare, #cc574e
+green_flare, #cc574e
+lightblue_flare, #cc574e
+lightgray_flare, #cc574e
+lime_flare, #cc574e
+magenta_flare, #cc574e
+orange_flare, #cc574e
+pink_flare, #cc574e
+purple_flare, #cc574e
+red_flare, #cc574e
+shotgun_shell, #d2573e
+silver_bullet, #e3e3e7
+sniper_round, #bfa579
+white_flare, #cc574e
+yellow_flare, #cc574e

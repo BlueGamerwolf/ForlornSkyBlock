@@ -1,0 +1,13 @@
+#52B53D minecraft:air
+#38394E minecraft:amethyst_block
+#840F59 minecraft:bedrock
+#9AD2D0 minecraft:budding_amethyst
+#00BE18 minecraft:calcite
+#80497A minecraft:dirt
+#4FA7D0 minecraft:dirt_path
+#3F84B7 minecraft:grass_block
+#B42F3C minecraft:medium_amethyst_bud
+#BCB2B1 skyblock_resources:netherite_dust_generator
+#F846EA minecraft:small_amethyst_bud
+#8638B9 minecraft:smooth_basalt
+#62212E skyblock_resources:stone_dust_generator

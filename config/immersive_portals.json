@@ -23,7 +23,7 @@
   "doCheckGlError": false,
   "shaderpackWarning": true,
   "portalWandCursorAlignment": 2,
-  "netherPortalMode": "normal",
+  "netherPortalMode": "adaptive",
   "endPortalMode": "normal",
   "enableWarning": true,
   "lightVanillaNetherPortalWhenCrouching": true,
@@ -42,5 +42,9 @@
   "looseMovementCheck": false,
   "chunkPacketDebug": false,
   "enableImmPtlChunkLoading": true,
-  "disabledWarnings": []
+  "disabledWarnings": [
+    "create",
+    "modern_industrialization",
+    "many_mods"
+  ]
 }

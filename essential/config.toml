@@ -49,7 +49,7 @@
 
 	[notifications.general]
 		disable_all_notifications = false
-		host_world_ip_warning = true
+		host_world_ip_warning = false
 		update_notifications = true
 		screenshot_toast_duration = 1
 		message_sound = true

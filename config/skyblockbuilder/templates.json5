@@ -19,9 +19,9 @@
   
   "spawns": {
     "default": {
-      "east": [],
-      "west": [],
       "north": [],
+      "west": [],
+      "east": [],
       "south": [
         [ 6, 3, 5 ]
       ]

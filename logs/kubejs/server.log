@@ -1,0 +1,161 @@
+[01:24:24] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:24:24] [INIT] Loaded plugins:
+[01:24:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:24:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:24:24] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[01:24:24] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[01:24:24] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[01:24:24] [INIT] - argent_matter.gcyr.integration.kjs.GCYRKubeJSPlugin
+[01:24:24] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[01:24:24] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:24:24] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[01:24:24] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.common.js in 0.001 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.draconic.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.gregtech.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.immersive.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.mekanism.js in 0.001 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.powah.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/create.thermal.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/create/_helpers.js in 0.002 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/exdeorum/pebbles.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/exdeorum/sieveremovals.js in 0.001 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/exdeorum/sieve_overrides.js in 0.0 s
+[01:24:24] [INFO] Loaded script server_scripts:mods/minecraft/recipes.js in 0.0 s
+[01:24:24] [INFO] Loaded 12/12 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
+[01:24:24] [INFO] Scripts loaded
+[01:24:24] [INFO] Initializing recipe event...
+[01:24:41] [INFO] Processing recipes...
+[01:24:41] [WARN] Failed to parse recipe 'allthearcanistgear:base_boots_to_allthemodium_boots_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'base' can't be empty!
+[01:24:41] [WARN] Failed to parse recipe 'exdeorum:sieve/dust/golden/yellorium_dust[exdeorum:sieve]'! Falling back to vanilla: ItemStack 'result' can't be empty
+[01:24:42] [WARN] Failed to parse recipe 'exdeorum:sieve/dust/iron/yellorium_dust[exdeorum:sieve]'! Falling back to vanilla: ItemStack 'result' can't be empty
+[01:24:42] [WARN] Failed to parse recipe 'allthearcanistgear:base_legs_to_allthemodium_leggings_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'base' can't be empty!
+[01:24:42] [WARN] Failed to parse recipe 'exdeorum:sieve/dust/string/yellorium_dust[exdeorum:sieve]'! Falling back to vanilla: ItemStack 'result' can't be empty
+[01:24:42] [WARN] Failed to parse recipe 'allthearcanistgear:base_chest_to_allthemodium_robes_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'base' can't be empty!
+[01:24:42] [WARN] Failed to parse recipe 'exdeorum:sieve/dust/diamond/yellorium_dust[exdeorum:sieve]'! Falling back to vanilla: ItemStack 'result' can't be empty
+[01:24:42] [WARN] Failed to parse recipe 'exdeorum:sieve/dust/netherite/yellorium_dust[exdeorum:sieve]'! Falling back to vanilla: ItemStack 'result' can't be empty
+[01:24:42] [WARN] Failed to parse recipe 'allthecompressed:decompress/blaze_block_1x[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:24:42] [WARN] Failed to parse recipe 'allthecompressed:decompress/wax_block_1x[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:24:42] [WARN] Failed to parse recipe 'mekaweapons:module_arrowvelocity_unit[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:24:42] [WARN] Failed to parse recipe 'allthearcanistgear:base_hat_to_allthemodium_hat_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'base' can't be empty!
+[01:24:42] [WARN] Failed to parse recipe 'exdeorum:sieve/dust/flint/yellorium_dust[exdeorum:sieve]'! Falling back to vanilla: ItemStack 'result' can't be empty
+[01:24:43] [WARN] Failed to parse recipe 'create_sa:andesite_exoskeleton_recipe[create:mechanical_crafting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:24:43] [INFO] Found 58412 recipes in 1.314 s
+[01:24:43] [ERROR] ! Error in 'ServerEvents.recipes': Invalid empty fluid 'powah:energy'
+[01:24:43] [ERROR] ! com.google.gson.JsonSyntaxException: Invalid empty fluid 'powah:energy'
+[01:24:43] [ERROR] !   at com.simibubi.create.foundation.fluid.FluidHelper.deserializeFluidStack(FluidHelper.java:151)
+[01:24:43] [ERROR] !   at com.simibubi.create.foundation.fluid.FluidIngredient$FluidStackIngredient.readInternal(FluidIngredient.java:179)
+[01:24:43] [ERROR] !   at com.simibubi.create.foundation.fluid.FluidIngredient.deserialize(FluidIngredient.java:131)
+[01:24:43] [ERROR] !   at …kubejs.create.ProcessingRecipeSchema$ProcessingRecipeJS.readInputFluid(ProcessingRecipeSchema.java:89)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.FluidComponents$1.read(FluidComponents.java:39)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.FluidComponents$1.read(FluidComponents.java:16)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.OrRecipeComponent.read(OrRecipeComponent.java:53)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.OrRecipeComponent.read(OrRecipeComponent.java:14)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.ArrayRecipeComponent.read(ArrayRecipeComponent.java:97)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.ArrayRecipeComponent.read(ArrayRecipeComponent.java:16)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.RecipeComponentWithParent.read(RecipeComponentWithParent.java:52)
+[01:24:43] [ERROR] !   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
+[01:24:43] [ERROR] !   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
+[01:24:43] [ERROR] !   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
+[01:24:43] [ERROR] !   at …kubejs.recipe.RecipesEventJS.custom(RecipesEventJS.java:638)
+[01:24:43] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:569)
+[01:24:43] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[01:24:43] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[01:24:43] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[01:24:43] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[01:24:43] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[01:24:43] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[01:24:43] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[01:24:43] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[01:24:43] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[01:24:43] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[01:24:43] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[01:24:43] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[01:24:43] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[01:24:43] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy240.onEvent(Unknown Source)
+[01:24:43] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[01:24:43] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[01:24:43] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
+[01:24:43] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[01:24:43] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
+[01:24:43] [ERROR] !   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:359)
+[01:24:43] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.handler$doo000$customRecipesHead(RecipeManager.java:4031)
+[01:24:43] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[01:24:43] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
+[01:24:43] [ERROR] !   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[01:24:43] [ERROR] !   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[01:24:43] [ERROR] !   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[01:24:43] [ERROR] !   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[01:24:43] [ERROR] !   at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
+[01:24:43] [ERROR] !   at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
+[01:24:43] [ERROR] !   at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53)
+[01:24:43] [ERROR] !   at MC-BOOTSTRAP/brigadier@1.1.8/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+[01:24:43] [ERROR] !   at net.minecraft.commands.Commands.m_242674_(Commands.java:257)
+[01:24:43] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244)
+[01:24:43] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+[01:24:43] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[01:24:43] [ERROR] !   at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[01:24:43] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$270(MinecraftServer.java)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.wrapOperation$zda000$managedBlock(MinecraftServer.java:1856)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[01:24:43] [ERROR] !   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[01:24:43] [ERROR] !   at java.lang.Thread.run(Thread.java:840)
+[01:24:43] [INFO] Posted recipe events in 19.25 ms
+[01:24:43] [WARN] Error parsing recipe exdeorum:compressed_sieve/dust/iron/yellorium_dust[exdeorum:compressed_sieve]: {"type":"exdeorum:compressed_sieve","ingredient":{"tag":"exdeorum:compressed/dust"},"mesh":"exdeorum:iron_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":7.0,"p":0.08}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/stone_sky_stone_generator[skyblock_resources:set_generator_gui]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:set_generator_gui","ingredients":[{"item":"ae2:sky_stone"},{"item":"skyblock_resources:stone_empty_generator"}],"output":{"item":"skyblock_resources:stone_sky_stone_generator","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe exdeorum:compressed_sieve/dust/flint/yellorium_dust[exdeorum:compressed_sieve]: {"type":"exdeorum:compressed_sieve","ingredient":{"tag":"exdeorum:compressed/dust"},"mesh":"exdeorum:flint_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":7.0,"p":0.055}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe allthemodium:smeltery/casting/alloys/vibranium_allthemodium_alloy_ingot[tconstruct:casting_table]: {"type":"tconstruct:casting_table","cast":{"item":"allthemodium:piglich_heart"},"cast_consumed":true,"fluid":{"name":"allthemodium:molten_atmvib","amount":90},"result":"allthemodium:vibranium_allthemodium_alloy_ingot","cooling_time":740,"conditions":[{"type":"forge:mod_loaded","modid":"tconstruct"}]}: Unable to parse name as registry minecraft:fluid does not contain ID allthemodium:molten_atmvib
+[01:24:43] [WARN] Error parsing recipe allthecompressed:decompress/blaze_block_1x[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"building","ingredients":[{"item":"allthecompressed:blaze_block_1x"}],"result":{"count":9,"item":"botania:blaze_block"}}: Unknown item 'botania:blaze_block'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/netherite_sky_stone_items_generator[skyblock_resources:generator_items]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:generator_items","ingredients":[{"item":"skyblock_resources:netherite_sky_stone_generator"}],"output":{"item":"ae2:sky_stone","count":64}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/iron_sky_stone_generator[skyblock_resources:set_generator_gui]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:set_generator_gui","ingredients":[{"item":"ae2:sky_stone"},{"item":"skyblock_resources:iron_empty_generator"}],"output":{"item":"skyblock_resources:iron_sky_stone_generator","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe exdeorum:compressed_sieve/dust/golden/yellorium_dust[exdeorum:compressed_sieve]: {"type":"exdeorum:compressed_sieve","ingredient":{"tag":"exdeorum:compressed/dust"},"mesh":"exdeorum:golden_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":7.0,"p":0.1}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe allthecompressed:decompress/wax_block_1x[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"building","ingredients":[{"item":"allthecompressed:wax_block_1x"}],"result":{"count":9,"item":"productivebees:wax_block"}}: Unknown item 'productivebees:wax_block'
+[01:24:43] [WARN] Error parsing recipe allthemodium:smeltery/alloys/molten_atmunob[tconstruct:alloy]: {"type":"tconstruct:alloy","inputs":[{"tag":"forge:molten_allthemodium","amount":90},{"tag":"forge:molten_unobtainium","amount":90}],"result":{"fluid":"allthemodium:molten_atmunob","amount":90},"temperature":9000,"conditions":[{"type":"forge:mod_loaded","modid":"tconstruct"}]}: Unable to parse fluid as registry minecraft:fluid does not contain ID allthemodium:molten_atmunob
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/gold_sky_stone_items_generator[skyblock_resources:generator_items]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:generator_items","ingredients":[{"item":"skyblock_resources:gold_sky_stone_generator"}],"output":{"item":"ae2:sky_stone","count":16}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe create_sa:andesite_exoskeleton_recipe[create:mechanical_crafting]: {"type":"create:mechanical_crafting","accept_mirrored":false,"category":"misc","key":{"0":{"item":"create:andesite_alloy"},"1":{"item":"create:shaft"},"2":{"item":"create:belt_connector"},"3":{"item":"create_sa:heat_engine"},"4":{"tag":"c:ingots/zinc"},"5":{"tag":"c:stones"}},"pattern":["01210","00300","54045"],"result":{"count":1,"id":"create_sa:andesite_exoskeleton_chestplate"},"show_notification":false}: Missing item, expected to find a string
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/diamond_sky_stone_items_generator[skyblock_resources:generator_items]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:generator_items","ingredients":[{"item":"skyblock_resources:diamond_sky_stone_generator"}],"output":{"item":"ae2:sky_stone","count":32}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe allthemodium:smeltery/casting/alloys/unobtainium_vibranium_alloy_ingot[tconstruct:casting_table]: {"type":"tconstruct:casting_table","cast":{"item":"allthemodium:piglich_heart"},"cast_consumed":true,"fluid":{"name":"allthemodium:molten_vibunob","amount":90},"result":"allthemodium:unobtainium_vibranium_alloy_ingot","cooling_time":1804,"conditions":[{"type":"forge:mod_loaded","modid":"tconstruct"}]}: Unable to parse name as registry minecraft:fluid does not contain ID allthemodium:molten_vibunob
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/stone_sky_stone_items_generator[skyblock_resources:generator_items]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:generator_items","ingredients":[{"item":"skyblock_resources:stone_sky_stone_generator"}],"output":{"item":"ae2:sky_stone","count":2}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe allthecompressed:compress/blaze_block_1x[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"building","key":{},"pattern":["   ","   ","   "],"result":{"item":"allthecompressed:blaze_block_1x"},"show_notification":true}: null
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/diamond_sky_stone_generator[skyblock_resources:set_generator_gui]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:set_generator_gui","ingredients":[{"item":"ae2:sky_stone"},{"item":"skyblock_resources:diamond_empty_generator"}],"output":{"item":"skyblock_resources:diamond_sky_stone_generator","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe exdeorum:sieve/dust/diamond/yellorium_dust[exdeorum:sieve]: {"type":"exdeorum:sieve","ingredient":{"item":"exdeorum:dust"},"mesh":"exdeorum:diamond_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.12}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/wooden_sky_stone_items_generator[skyblock_resources:generator_items]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:generator_items","ingredients":[{"item":"skyblock_resources:wooden_sky_stone_generator"}],"output":{"item":"ae2:sky_stone","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe exdeorum:sieve/dust/netherite/yellorium_dust[exdeorum:sieve]: {"type":"exdeorum:sieve","ingredient":{"item":"exdeorum:dust"},"mesh":"exdeorum:netherite_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.14}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/iron_sky_stone_items_generator[skyblock_resources:generator_items]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:generator_items","ingredients":[{"item":"skyblock_resources:iron_sky_stone_generator"}],"output":{"item":"ae2:sky_stone","count":4}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe allthemodium:smeltery/alloys/molten_atmvib[tconstruct:alloy]: {"type":"tconstruct:alloy","inputs":[{"tag":"forge:molten_allthemodium","amount":90},{"tag":"forge:molten_vibranium","amount":90}],"result":{"fluid":"allthemodium:molten_atmvib","amount":90},"temperature":9000,"conditions":[{"type":"forge:mod_loaded","modid":"tconstruct"}]}: Unable to parse fluid as registry minecraft:fluid does not contain ID allthemodium:molten_atmvib
+[01:24:43] [WARN] Error parsing recipe mekaweapons:module_arrowvelocity_unit[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"mekaweapons:module_arrowvelocity_unit"},"pattern":["sbs","ama","ppp"],"key":{"m":{"item":"mekanism:module_base"},"p":{"item":"mekanism:pellet_polonium"},"b":{"item":"minecraft:arrow"},"a":{"item":"mekanism:alloy_reinforced"},"s":{"item":"mekanism:upgrade_speed"}}}: Unknown item 'mekaweapons:module_arrowvelocity_unit'
+[01:24:43] [WARN] Error parsing recipe mob_grinding_utils:beheading/piglin[mob_grinding_utils:beheading]: {"type":"mob_grinding_utils:beheading","entity":"minecraft:piglin","result":{"item":"tconstruct:piglin_head"}}: Expected item to be an item, was unknown string 'tconstruct:piglin_head'
+[01:24:43] [WARN] Error parsing recipe exdeorum:compressed_sieve/dust/diamond/yellorium_dust[exdeorum:compressed_sieve]: {"type":"exdeorum:compressed_sieve","ingredient":{"tag":"exdeorum:compressed/dust"},"mesh":"exdeorum:diamond_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":7.0,"p":0.12}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe allthemodium:smeltery/alloys/molten_vibunob[tconstruct:alloy]: {"type":"tconstruct:alloy","inputs":[{"tag":"forge:molten_vibranium","amount":90},{"tag":"forge:molten_unobtainium","amount":90}],"result":{"fluid":"allthemodium:molten_vibunob","amount":90},"temperature":9000,"conditions":[{"type":"forge:mod_loaded","modid":"tconstruct"}]}: Unable to parse fluid as registry minecraft:fluid does not contain ID allthemodium:molten_vibunob
+[01:24:43] [WARN] Error parsing recipe exdeorum:sieve/dust/string/yellorium_dust[exdeorum:sieve]: {"type":"exdeorum:sieve","ingredient":{"item":"exdeorum:dust"},"mesh":"exdeorum:string_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.05}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/wooden_sky_stone_generator[skyblock_resources:set_generator_gui]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:set_generator_gui","ingredients":[{"item":"ae2:sky_stone"},{"item":"skyblock_resources:wooden_empty_generator"}],"output":{"item":"skyblock_resources:wooden_sky_stone_generator","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/gold_sky_stone_generator[skyblock_resources:set_generator_gui]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:set_generator_gui","ingredients":[{"item":"ae2:sky_stone"},{"item":"skyblock_resources:gold_empty_generator"}],"output":{"item":"skyblock_resources:gold_sky_stone_generator","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe exdeorum:sieve/dust/flint/yellorium_dust[exdeorum:sieve]: {"type":"exdeorum:sieve","ingredient":{"item":"exdeorum:dust"},"mesh":"exdeorum:flint_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.055}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe exdeorum:compressed_sieve/dust/string/yellorium_dust[exdeorum:compressed_sieve]: {"type":"exdeorum:compressed_sieve","ingredient":{"tag":"exdeorum:compressed/dust"},"mesh":"exdeorum:string_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":7.0,"p":0.05}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe exdeorum:sieve/dust/iron/yellorium_dust[exdeorum:sieve]: {"type":"exdeorum:sieve","ingredient":{"item":"exdeorum:dust"},"mesh":"exdeorum:iron_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.08}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe skyblock_resources:compat/ae2/netherite_sky_stone_generator[skyblock_resources:set_generator_gui]: {"conditions":[{"type":"forge:mod_loaded","modid":"ae2"}],"type":"skyblock_resources:set_generator_gui","ingredients":[{"item":"ae2:sky_stone"},{"item":"skyblock_resources:netherite_empty_generator"}],"output":{"item":"skyblock_resources:netherite_sky_stone_generator","count":1}}: Unknown item 'ae2:sky_stone'
+[01:24:43] [WARN] Error parsing recipe exdeorum:compressed_sieve/dust/netherite/yellorium_dust[exdeorum:compressed_sieve]: {"type":"exdeorum:compressed_sieve","ingredient":{"tag":"exdeorum:compressed/dust"},"mesh":"exdeorum:netherite_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":7.0,"p":0.14}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:43] [WARN] Error parsing recipe allthecompressed:compress/wax_block_1x[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"building","key":{},"pattern":["   ","   ","   "],"result":{"item":"allthecompressed:wax_block_1x"},"show_notification":true}: null
+[01:24:43] [WARN] Error parsing recipe allthemodium:smeltery/casting/alloys/unobtainium_allthemodium_alloy_ingot[tconstruct:casting_table]: {"type":"tconstruct:casting_table","cast":{"item":"allthemodium:piglich_heart"},"cast_consumed":true,"fluid":{"name":"allthemodium:molten_atmunob","amount":90},"result":"allthemodium:unobtainium_allthemodium_alloy_ingot","cooling_time":1209,"conditions":[{"type":"forge:mod_loaded","modid":"tconstruct"}]}: Unable to parse name as registry minecraft:fluid does not contain ID allthemodium:molten_atmunob
+[01:24:43] [WARN] Error parsing recipe exdeorum:sieve/dust/golden/yellorium_dust[exdeorum:sieve]: {"type":"exdeorum:sieve","ingredient":{"item":"exdeorum:dust"},"mesh":"exdeorum:golden_mesh","result":"biggerreactors:yellorium_dust","result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.1}}: Unknown item 'biggerreactors:yellorium_dust'
+[01:24:44] [INFO] Added 24 recipes, removed 0 recipes, modified 2 recipes, with 37 failed recipes in 1.040 s
+[01:24:47] [INFO] Server resource reload complete!

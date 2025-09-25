@@ -1,0 +1,4 @@
+// Compost colors for create_crush_everything. You may add your own colors, change existing ones, or remove colors that aren't needed.
+diamond_shard, #6bfff4
+feather_fluff, #ffffff
+netherite_shard, #514a4b

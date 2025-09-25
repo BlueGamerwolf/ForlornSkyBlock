@@ -1,0 +1,26 @@
+[2025-09-25 00:19:56.275] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: JVM args: [-XX:+UseSerialGC, -XX:MaxHeapFreeRatio=30, -XX:MinHeapFreeRatio=10, -XX:MaxGCPauseMillis=10000, -Xms8m, -Xmx512m]
+[2025-09-25 00:19:56.277] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: program args: [-jarPath, D:\ATLauncher\instances\ForlornSkyBlock001\local\crash_assistant\21716_1758773988622_app.jar, -parentPID, 21716, -parentStarted, 1758773988622, -platform, FORGE, -loaderJarName, fmlloader-1.20.1-47.4.9.jar, -minecraftVersion, 1.20.1, -childProcessesPIDs, VU5ERUZJTkVE, -crashAssistantModJarPath, D:\ATLauncher\instances\ForlornSkyBlock001\mods\CrashAssistant-forge-1.19-1.20.1-1.9.15.jar, -log4jApi, D:\ATLauncher\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar, -log4jCore, D:\ATLauncher\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar, -googleGson, D:\ATLauncher\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar, -commonIo, D:\ATLauncher\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar, -parentXms, unknown, -parentXmx, 12000M, -systemRAM, 31.8g, -processor, QU1EIFJ5emVuIDcgNzQzNUhTICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=, -serialisedGPUs, VnVsa2FuIEdQVSBkZXRlY3Rpb24gYWRkb24gbm90IGZvdW5kLCBmYWxsaW5nIGJhY2sgdG8gRGlyZWN0WApTdWNjZXNzZnVsbHkgZGV0ZWN0ZWQgR1BVcyB1c2luZyBEaXJlY3RYOgpERURJQ0FURUQgOiBOVklESUEgR2VGb3JjZSBSVFggMzA1MCBMYXB0b3AgR1BVCg0K, -recursiveStart]
+[2025-09-25 00:19:56.277] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running from: D:\ATLauncher\instances\ForlornSkyBlock001
+[2025-09-25 00:19:56.277] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: crashAssistantJarName: CrashAssistant-forge-1.19-1.20.1-1.9.15.jar
+[2025-09-25 00:19:56.278] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent PID: 21716
+[2025-09-25 00:19:56.278] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent started: 1758773988622
+[2025-09-25 00:19:56.280] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Platform: FORGE
+[2025-09-25 00:19:56.281] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: loaderJarName: fmlloader-1.20.1-47.4.9.jar
+[2025-09-25 00:19:56.282] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftVersion: 1.20.1
+[2025-09-25 00:19:56.282] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: childProcessesPIDs: UNDEFINED
+[2025-09-25 00:19:56.282] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXms: unknown
+[2025-09-25 00:19:56.282] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXmx: 12000M
+[2025-09-25 00:19:56.282] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemRAM: 31.8g
+[2025-09-25 00:19:56.283] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: processor: AMD Ryzen 7 7435HS                             
+[2025-09-25 00:19:56.283] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Boot.serialisedGPUs:
+Vulkan GPU detection addon not found, falling back to DirectX
+Successfully detected GPUs using DirectX:
+DEDICATED : NVIDIA GeForce RTX 3050 Laptop GPU
+
+
+[2025-09-25 00:19:56.283] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: os.name: windows 11
+[2025-09-25 00:19:56.290] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java path: D:\ATLauncher\runtimes\minecraft\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\javaw.exe
+[2025-09-25 00:19:56.290] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java version: 17.0.15+6-LTS
+[2025-09-25 00:19:56.307] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp started successfully. Waiting for PID 21716 to stop.
+[2025-09-25 00:20:40.253] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft is running on renderer:
+NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2

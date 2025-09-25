@@ -1,0 +1,4 @@
+// Compost colors for storage_allthemodium_upgrade. You may add your own colors, change existing ones, or remove colors that aren't needed.
+stack_upgrade_tier_6, #b68d48
+stack_upgrade_tier_7, #9e9152
+stack_upgrade_tier_8, #b17c5f
