@@ -21701,3 +21701,80 @@ A recipe category must be registered in order to use this recipe type.
 [01:30:30] [Render thread/INFO]: Authenticating to Mojang as Blue_Gamerwolf (a1bc8320-401b-43ff-a73f-581ea979e506)
 [01:30:30] [DefaultDispatcher-worker-3/INFO]: Connecting to Essential Connection Manager...
 [01:30:30] [WebSocketConnectReadThread-1249/INFO]: Connected to Essential Connection Manager.
+[01:35:21] [Render thread/INFO]: Listing events...
+[01:35:21] [Render thread/INFO]: World join: 3
+[01:35:21] [Render thread/INFO]:   Singleplayer: 3
+[01:35:21] [Render thread/INFO]:   Multiplayer: 0
+[01:35:21] [Render thread/INFO]: Client Level Updates: 8
+[01:35:21] [Render thread/INFO]: Server Player Logout: 2
+[01:35:21] [Render thread/INFO]: Server Stopped: 2
+[01:35:21] [Render thread/INFO]: Listing memory leaks so far...
+[01:35:21] [Render thread/INFO]: B: 3497MB / C: 3714MB / Diff: +217MB
+[01:35:21] [Render thread/INFO]: Memory Leaks detected: (/atl force_refresh to update)
+[01:35:21] [Render thread/INFO]: | Level:
+[01:35:21] [Render thread/INFO]: |- ClientLevel (minecraft): 1
+[01:35:21] [Render thread/INFO]: | ChunkAccess:
+[01:35:21] [Render thread/INFO]: |- LevelChunk (minecraft): 246
+[01:36:05] [Render thread/ERROR]: Signature is missing from Property textures
+[01:36:05] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[01:36:05] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[01:36:05] [Render thread/INFO]: Stopping JEI
+[01:36:05] [Render thread/INFO]: Sending Runtime Unavailable...
+[01:36:05] [Render thread/INFO]: Stopping JEI GUI
+[01:36:05] [Render thread/INFO]: Sending Runtime Unavailable took 3.042 ms
+[01:36:05] [Render thread/INFO]: Released client Flux Networks cache
+[01:36:05] [Render thread/INFO]: Loaded template "default" from "default.nbt".
+[01:36:05] [Render thread/INFO]: [voicechat] Clearing audio channels
+[01:36:05] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[01:36:05] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[01:36:05] [Server thread/INFO]: Blue_Gamerwolf lost connection: Disconnected
+[01:36:05] [Server thread/INFO]: Blue_Gamerwolf left the game
+[01:36:05] [Server thread/INFO]: [voicechat] Disconnecting client Blue_Gamerwolf
+[01:36:05] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[01:36:05] [Server thread/INFO]: Stopping server
+[01:36:05] [Server thread/INFO]: Saving players
+[01:36:05] [Server thread/INFO]: Saving worlds
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/minecraft:overworld
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/allthemodium:mining
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/compactmachines:compact_world
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/allthemodium:the_other
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:mars
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/allthemodium:the_beyond
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/minecraft:the_nether
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/minecraft:the_end
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:mercury_orbit
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:black_hole_orbit
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:overworld_orbit
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:mercury
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:venus
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:luna
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:luna_orbit
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:mars_orbit
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/gcyr:venus_orbit
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Build]'/ae2:spatial_storage
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (Build): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (compact_world): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_other): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_beyond): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (black_hole_orbit): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (luna): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (luna_orbit): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[01:36:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:36:07] [Server thread/INFO]: Unloading EnderTank Data
+[01:36:07] [Server thread/INFO]: Finished Unloading EnderTank Data
+[01:36:07] [Server thread/INFO]: Unloading server configs...
+[01:36:07] [Server thread/INFO]: Finished unloading server configs
+[01:36:08] [Server thread/INFO]: Energy blacklist loaded: 1 block entries, 0 item entries
+[01:36:08] [Render thread/INFO]: Stopping worker threads
+[01:36:08] [Render thread/ERROR]: Signature is missing from Property textures

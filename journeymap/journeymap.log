@@ -125,3 +125,5 @@ CoreProperties{state=SavedOk, file=journeymap.core.config, configVersion=5.10.3,
 [01:24:45] [Render thread/INFO] [JourneymapClient] Mapping started in D:\ATLauncher\instances\ForlornSkyBlock001\journeymap\data\sp\Build\overworld. Memory: 11264MB total, 5924MB free 
 [01:31:00] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
 [01:31:00] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[01:36:05] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\ATLauncher\instances\ForlornSkyBlock001\journeymap\data\mp\offline\minecraft:overworld
+[01:36:08] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
